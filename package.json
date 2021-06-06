@@ -1,0 +1,19 @@
+{
+  "name": "software-engineer-questions",
+  "version": "1.0.0",
+  "description": "Syniti Data Validator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshjulka/software-engineer-questions.git"
+  },
+  "author": "HarshJulka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshjulka/software-engineer-questions/issues"
+  },
+  "homepage": "https://github.com/harshjulka/software-engineer-questions#readme"
+}
