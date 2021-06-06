@@ -1,19 +1,7 @@
+import {store} from './store.js';
 const inputReader = document.getElementById('formFileMultiple');
-inputReader.addEventListener('change', this.readFile);
-
-const store = (() => {
-    const list = [];
-    const setter = (data) => {
-        list.push(...data);
-    }
-    const getter = () => {
-        return list;
-    }
-    return {
-        get: getter,
-        set: setter
-    }
-})();
+const nextButton = document.getElementById('next');
+const prevButton = document.getElementById('prev');
 
 const render = (duplicateList, from ,to) => {
     if (duplicateList.length > 0) {
@@ -80,7 +68,7 @@ const showData = (() => {
     let from = 0;
     let to = 9;
     return (e) => {
-        if(e === 'next') {
+        if(e.target.name === 'next') {
             from = from + 10;
             to = to + 10;
             const duplicateList = store.get();
@@ -95,3 +83,7 @@ const showData = (() => {
         }
     }
 })()
+
+inputReader.addEventListener('change', readFile);
+nextButton.addEventListener('click', showData)
+prevButton.addEventListener('click', showData)
