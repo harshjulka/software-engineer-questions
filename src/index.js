@@ -7,7 +7,7 @@ const inputReader = document.getElementById('formFileMultiple');
 const nextButton = document.getElementById('next');
 const prevButton = document.getElementById('prev');
 
-const getData = async (e) => {
+const init = async (e) => {
     let data;
     try {
         data = await readFile(e)
@@ -19,7 +19,7 @@ const getData = async (e) => {
     render(duplicateList, 0, 9);
 }
 
-const showData = (() => {
+const pagination = (() => {
     let from = 0;
     let to = 9;
     return (e) => {
@@ -38,6 +38,6 @@ const showData = (() => {
     }
 })()
 
-inputReader.addEventListener('change', getData);
-nextButton.addEventListener('click', showData)
-prevButton.addEventListener('click', showData)
+inputReader.addEventListener('change', init);
+nextButton.addEventListener('click', pagination)
+prevButton.addEventListener('click', pagination)

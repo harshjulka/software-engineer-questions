@@ -4,7 +4,9 @@
   "description": "Syniti Data Validator",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/harshjulka/software-engineer-questions/issues"
   },
-  "homepage": "https://github.com/harshjulka/software-engineer-questions#readme"
+  "homepage": "https://github.com/harshjulka/software-engineer-questions#readme",
+  "dependencies": {
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  }
 }
