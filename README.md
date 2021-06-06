@@ -44,20 +44,17 @@ Here are the questions, good luck!
    critical buisness pages.
    For mobile we have increased to 50+ from 20-25.
 
-   Also, Recently I have delivered projects end to end. Frontend was done in ReactJs
+   Also, Recently I have delivered projects end to end. Frontend was done in ReactJs/Angular
    and Backend was delivered in NodeJs.
 
 
 2. What's a personal project you're currently working on? This could be a
    coding side project, hobby, or otherwise real world project you're working
    on.
-
-   I am working on, touching every part of software development lifecycle.
-   Out of which I do Frontend development using React/Angular/Javascript/Typescript,
-   Backend development using NoSQL, NodeJS.
    
-   Right now, I am learning event bases architecure in backend by using Kafka and taking 
+   Right now, I am learning event bases architecure by using Kafka and taking 
    courses on udemy.
+   
 
 3. Tell us about a technical book or article you read recently, why you liked
    it, and why we should read it.
@@ -71,7 +68,7 @@ Here are the questions, good luck!
    My Favorite technical book series is You Don't know JS by kyle simpson.
    If you are a JS developer then this book is a must read to clear your JS fundamentals.
 
-   Everything is explained in detailed and simple language.
+   Because, All concepts of JavaScript are explained in detailed with simple examples. 
 
 
 4. Tell us about one of your favorite products (physical or software) and one
@@ -79,8 +76,8 @@ Here are the questions, good luck!
 
    UPI(Unified Payments Interface) is one of my favorite product which is developed by National payments corporation of India.
 
-   Reason: With this digital payments like person to person transfer using mobile number or bank account became very easy. One app can handle all transactions no need to do login in
-   your netbanking or bank app.
+   Reason: With UPI digital payments became more accessible and convenient.
+           One app can handle all transactions like Recharges/ Transfer/ Bill payments etc and Also, No need to do multiple logins in your netbanking or bank app.
     
 
 5. In this repo is a `data.json` file. It contains an imaginary example set
